@@ -1,0 +1,26 @@
+{
+	"name":"sethsandaru/form-builder-phalcon",
+	"description": "Vue Form Builder Backend in Phalcon PHP",
+	"license":"DBAD",
+	"authors": [
+		{
+			"name":"Daniel Cox",
+			"email":"danzabian@gmail.com",
+			"homepage":"http://www.valeska.co.uk"
+		}
+	],
+	"require": {
+		"symfony/debug": "3.0.*@dev",
+		"danzabar/phalcon-cli": "dev-master"
+	},
+	"require-dev": {
+		"satooshi/php-coveralls": "*",
+		"mockery/mockery": "dev-master"
+	},
+	"minimum-stability": "dev",
+	"autoload": {
+		"classmap": [
+			"tests/UnitTest.php"
+		]
+	}
+}
